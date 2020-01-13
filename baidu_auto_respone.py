@@ -10,8 +10,8 @@ time.sleep(3)
 driver.find_element_by_id('TANGRAM__PSP_10__footerULoginBtn"').click()
 time.sleep(3)
 
-driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_10__userName"]').send_keys('13011508179')
-driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_10__password"]').send_keys('SHANzi628weiyi')
+driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_10__userName"]').send_keys('xxxx')
+driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_10__password"]').send_keys('xxxx')
 
 try:
     verifycode = driver.find_element_by_name('verifyCode')
